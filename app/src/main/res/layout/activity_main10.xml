@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/road"
+    tools:context=".Main10Activity">
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:text="END TRIP"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorBlack"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="26dp" />
+</RelativeLayout>

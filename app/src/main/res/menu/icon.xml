@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Main5Activity">
+
+
+    <item
+        android:icon="@drawable/home"
+        android:title="@string/HOME" />
+    <item
+        android:icon="@drawable/complaints"
+        android:title="@string/COMPLAINTS" />
+    <item
+        android:icon="@drawable/clock"
+        android:title="@string/STREETRIDE_SECTION" />
+    <item
+        android:icon="@drawable/bag"
+        android:title="@string/INCENTIVES_MART" />
+    <item
+        android:icon="@drawable/bag1"
+        android:title="@string/NOTIFICATION_SECTION" />
+</menu>

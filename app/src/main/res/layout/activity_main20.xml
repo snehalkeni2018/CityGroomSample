@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main7Activity">
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/colorBlack"
+        app:itemIconTint="@color/colorWhite"
+        app:menu="@menu/navigation_bar_items">
+    </android.support.design.widget.BottomNavigationView>
+
+    <android.support.design.circularreveal.CircularRevealFrameLayout
+        android:id="@+id/frame1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_nav"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="-27dp">
+
+    </android.support.design.circularreveal.CircularRevealFrameLayout>
+
+    <android.support.design.widget.NavigationView
+        android:layout_width="67dp"
+        android:id="@+id/menu"
+        android:layout_height="54dp"
+        android:background="@drawable/menu"
+        app:menu="@menu/menu_items"
+        android:layout_gravity="center">
+    </android.support.design.widget.NavigationView>
+
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="294dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/colorBlack" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="300dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="0dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/whitelogo" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="112dp"
+        android:text="COMPLAINTS"
+        android:textSize="17dp"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="48dp"
+        android:layout_height="31dp"
+        android:layout_alignStart="@+id/imageView20"
+        android:layout_alignTop="@+id/textView13"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="-6dp"
+        app:srcCompat="@drawable/blackcomplaints" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="71dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="230dp"
+            android:layout_height="36dp"
+            android:background="@drawable/round"
+            android:hint="" />
+    </android.support.design.widget.TextInputLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="50dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="66dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/arrow" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="62dp"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="73dp"
+        android:background="@color/colorBlack"
+        android:text="SEND"
+        android:textColor="@color/colorWhite"
+
+        android:textSize="10dp" />
+
+
+</RelativeLayout>

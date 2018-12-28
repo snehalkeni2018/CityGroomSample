@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home1"
+        android:icon="@drawable/empty"
+        />
+    <item
+        android:id="@+id/complaints"
+        android:icon="@drawable/complaints"
+        android:title="@string/complaint_section" />
+    <item
+        android:id="@+id/streetride"
+        android:icon="@drawable/emptystreet"
+        android:title="@string/streetride_section" />
+    <item
+        android:id="@+id/incentives"
+        android:icon="@drawable/emptyincentives"
+        android:title="@string/incentives_mart" />
+    <item
+        android:id="@+id/incentives_bought"
+        android:icon="@drawable/bag1"
+        android:title="@string/notification_section" />
+</menu>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Main9Activity">
+
+<android.support.design.widget.BottomNavigationView
+    android:id="@+id/bottom_nav4"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentBottom="true"
+    app:itemBackground="@color/colorBlack"
+    app:itemIconTint="@color/colorWhite"
+    app:menu="@menu/navigation_bar_items">
+
+</android.support.design.widget.BottomNavigationView>
+
+
+    <android.support.design.circularreveal.CircularRevealFrameLayout
+        android:id="@+id/frame5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_nav4"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="34dp">
+
+    </android.support.design.circularreveal.CircularRevealFrameLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/menu4"
+        android:layout_width="66dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        android:background="@drawable/menu"
+        app:menu="@menu/menu_items">
+
+    </android.support.design.widget.NavigationView>
+
+
+    <View
+    android:id="@+id/view6"
+    android:layout_width="match_parent"
+    android:layout_height="54dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginStart="0dp"
+    android:layout_marginTop="0dp"
+    android:background="@color/colorBlack" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="229dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="0dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/whitelogo" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView20"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="60dp"
+        android:background="@color/colorBlack"
+        android:text="VIEW ROAD CONDITIONS"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="132dp"
+        android:text="STREET RIDES"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="49dp"
+        android:layout_height="42dp"
+        android:layout_alignTop="@+id/textView14"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="55dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/streetrides" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="265dp"
+        android:layout_height="286dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="98dp"
+        android:background="@drawable/round" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="114dp"
+        android:text="START TRIP"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorBlack"/>
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="188dp"
+        android:layout_height="43dp"
+        android:layout_alignStart="@+id/button19"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-16dp"
+        android:layout_marginTop="193dp"
+        android:text="TOTAL NUMBER OF BUMPS"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="111dp"
+        android:layout_height="84dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="187dp"
+        android:background="@drawable/square"
+        android:ems="10"
+        android:inputType="number" />
+
+</RelativeLayout>

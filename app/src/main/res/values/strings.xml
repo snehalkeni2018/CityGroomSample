@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">CityGroomSample</string>
+    <string name="HOME" />
+    <string name="COMPLAINTS" />
+    <string name="CLOCK" />
+    <string name="INCENTIVES_MART" />
+    <string name="NOTIFICATION_SECTION" />
+    <string name="STREETRIDE_SECTION" />
+    <string name="menu" />
+    <string name="home_section" />
+    <string name="complaint_section">complaint</string>
+    <string name="streetride_section">streetride</string>
+    <string name="incentives_mart">incentives</string>
+    <string name="notification_section">notification</string>
+    <string name="home1_section">home</string>
+    <string-array name="category">
+        <item>POTHOLES</item>
+        <item>ROAD CRACK</item>
+        <item>DRAINAGE</item>
+        <item>GUARD RAIL</item>
+        <item>MAN HOLE</item>
+        <item>OBSTRUCTION</item>
+        <item>STREET LIGHTS</item>
+        <item>ROAD SIGNS</item>
+    </string-array>
+
+    <string-array name="country">
+        <item>INDIA</item>
+        <item>CANADA</item>
+        <item>U.S.A</item>
+        <item>JAPAN</item>
+        <item>CHINA</item>
+        <item>SINGAPORE</item>
+        <item>THAILAND</item>
+        <item>MALAYSIA</item>
+    </string-array>
+
+    <string-array name="state">
+        <item>MAHARASHTRA</item>
+        <item>UTTAR PRADESH</item>
+        <item>MADHYA PRADESH</item>
+        <item>ANDRA PRADESH</item>
+        <item>TAMIL NADU</item>
+        <item>KERALA</item>
+        <item>GUJURAT</item>
+        <item>RAJASTAN</item>
+    </string-array>
+
+    <string-array name="region">
+        <item>THANE</item>
+        <item>PANVEL</item>
+        <item>CHEMBUR</item>
+        <item>VASHI</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_icon">menu</string>
+    <string name="title_activity_main16">Main16Activity</string>
+    <string name="title_activity_main17">Main17Activity</string>
+</resources>

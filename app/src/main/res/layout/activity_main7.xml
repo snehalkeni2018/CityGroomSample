@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main7Activity">
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottom_nav2"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/colorBlack"
+        app:itemIconTint="@color/colorWhite"
+        app:menu="@menu/navigation_bar_items">
+    </android.support.design.widget.BottomNavigationView>
+
+    <android.support.design.circularreveal.CircularRevealFrameLayout
+        android:id="@+id/frame3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_nav"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="-34dp">
+
+        <EditText
+            android:id="@+id/editText15"
+            android:layout_width="232dp"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="100dp"
+            android:background="@drawable/round"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="400dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="150dp"
+            android:background="@color/colorBlack"
+            />
+
+        <Button
+            android:id="@+id/button32"
+            android:layout_width="125dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="230dp"
+            android:text="VIEW PICTURES"
+            android:background="@color/colorBlack"
+            android:textColor="@color/colorWhite"/>
+
+    </android.support.design.circularreveal.CircularRevealFrameLayout>
+
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/menu2"
+        android:layout_width="66dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        android:background="@drawable/menu"
+        app:menu="@menu/menu_items"></android.support.design.widget.NavigationView>
+
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="294dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/colorBlack" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="300dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="0dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/whitelogo" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="104dp"
+        android:text="COMPLAINTS"
+        android:textColor="@color/colorBlack"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="48dp"
+        android:layout_height="31dp"
+        android:layout_alignStart="@+id/imageView20"
+        android:layout_alignTop="@+id/textView13"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="58dp"
+        app:srcCompat="@drawable/blackcomplaints" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="71dp">
+
+    </android.support.design.widget.TextInputLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="50dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="61dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/arrow" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="62dp"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="64dp"
+        android:background="@color/colorBlack"
+        android:text="SEND"
+        android:textColor="@color/colorWhite"
+
+        android:textSize="10dp" />
+
+
+</RelativeLayout>
